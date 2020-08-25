@@ -4,6 +4,7 @@ main{
 
     /* center contents */
     text-align: center;
+	min-height: 650px;
 }
 
 
