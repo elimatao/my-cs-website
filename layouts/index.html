@@ -1,0 +1,37 @@
+{{ define "static" }}
+	<link href="/css/index.css" rel="stylesheet">
+{{ end }}
+{{ define "header" }}
+	<header class="container-fluid p-5 sec3">
+		<h1>Elia Doumerc Software Collection</h1><hr>
+		<h4>Here is all you need to know about the programs</h4>
+		<a class="right" href="http://www.elia-doumerc.es">Visit my personal website &rarr;</a>
+	</header>
+{{ end }}
+{{ define "main" }}
+	<main class="container p-4">
+		<div id="programs">
+			{{ range .Pages }}
+				<a class="card" href="{{ .RelPermalink }}">
+					<img class="card-img-top" {{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+					<div class="card-body">
+					<h5 class="card-title">{{ .Title }}</h5>
+					<p class="card-text">{{ .Description }}</p>
+					<p class="card-text"><small class="text-muted">{{ .Date }}</small></p>
+					</div>
+				</a>
+			{{ end }}
+			<!-- Eine Karte einfach so, damit es nicht so leer ist. -->
+			<div class="card p-3">
+				<blockquote class="blockquote mb-0 card-body">
+				<p>There's a lot of space for many projects here.</p>
+				<footer class="blockquote-footer">
+					<small class="text-muted">
+					Elia Doumerc in <cite title="Source Title">his website</cite>
+					</small>
+				</footer>
+				</blockquote>
+			</div>
+		</div>
+	</main>
+{{ end }}

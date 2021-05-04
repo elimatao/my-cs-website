@@ -1,0 +1,72 @@
+main{
+	margin-left: 20%;
+	overflow-x: hidden;
+}
+
+/* template-specific  */
+.sidenav{
+	position: fixed;
+	height: 100%;
+	width: 20%;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 50px;	
+	padding-left: 18px;
+	padding-right: 18px;
+	border-right: 3px solid #ea433b;
+}
+.sidenav a {
+	padding-top: 6px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+/* Download-Button */
+.download, .download:hover{
+	color: black;
+	background-color: green;
+	border: 2px solid #262;
+	border-radius: 10%;
+	padding: 2px;
+	z-index: 5;
+}
+.download:hover{
+	background-color: #ada;
+	text-decoration: none;
+}
+header .navOpen, .navOpen:hover{
+	position: fixed;
+	z-index: 50;
+	right: auto;
+	top: 20px;
+	bottom: auto;
+	background-color: rgba(255, 255, 255, .3);
+	border-radius: 20px;
+	padding: 5px 10px 5px 10px;
+	left: 30px;
+	font-size: 36px;
+}
+.navOpen:hover{
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 2px 4px 5px grey;
+}
+
+.navClose{
+	position: absolute;
+	top: 6px;
+	right: 18px;
+	display: none;
+}
+
+#TableOfContents ul{
+	list-style-type: none;
+	padding: 0;
+}
