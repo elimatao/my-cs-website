@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2021-05-02T08:55:55+01:00
-draft: true
+draft: false
 description: A program for testing the site.
 featured_image: /images/hello.PNG
 download_url: https://github.com/elimatao/hello-world/archive/master.zip
@@ -30,7 +30,7 @@ def main():
 	
 main()
 ```
-			
+
 ## License
 You can try to sell it! 😀
 
