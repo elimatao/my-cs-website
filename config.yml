@@ -1,0 +1,7 @@
+baseURL: http://code.elia-doumerc.es
+languageCode: en-us
+title: My New Hugo Site
+
+markup:
+  highlight:
+    style: emacs
