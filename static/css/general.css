@@ -32,8 +32,11 @@ header a:hover{
 }
 
 /* Code blocks */
+pre {
+  padding: 12px;
+}
 pre, code{
-	background-color: #eee;
+	background-color: #eaeaea !important;
 	border-radius: 5px;
 }
 

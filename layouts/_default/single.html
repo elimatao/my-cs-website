@@ -1,9 +1,32 @@
 {{ define "static"}}
     <link href="/css/single.css" rel="stylesheet">
-    <script src="/js/single.js"></script>
+    <script defer src="/js/single.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-{{ end }}
-{{ define "header" }}
+
+    {{ if .Params.has_formulas }}
+    <!-- For LaTeX formulas -->
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$','$$'], ['\\[', '\\]']],
+            processEscapes: true,
+            processEnvironments: true
+          },
+          options: {
+            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+          }
+        };
+      
+        window.addEventListener('load', (event) => {
+            document.querySelectorAll("mjx-container").forEach(function(x){
+              x.parentElement.classList += 'has-jax'})
+        });
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {{ end }}
     
 {{ end }}
 {{ define "aside" }}
@@ -18,7 +41,7 @@
     <header class="container-fluid p-5 sec3 text-center">
         <h4>{{ .Description }}</h4>
         
-        <a href="javascript:void(0);" class="navOpen">
+        <a href="javascript:void(0);" class="navOpen" title="Navigation-Opener">
             <i class="fa fa-bars"></i>
         </a>
         {{ if isset .Params "download_url" }}
@@ -31,4 +54,5 @@
         {{ .Content }}
     </div>
 </main>
+
 {{ end }}
