@@ -23,7 +23,7 @@ This program needs Python to run.
 3. Type `python hello-world.py`
 
 ## Implementation
-Writing this was very difficult as you can see below:
+It was very difficult to write this as you can see below:
 
 ```python
 def main():
