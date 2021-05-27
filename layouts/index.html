@@ -3,23 +3,17 @@
 {{ end }}
 {{ define "header" }}
 	<header class="container-fluid p-5 sec3">
-		<h1>Elia Doumerc Software Collection</h1><hr>
-		<h4>Here is all you need to know about the programs</h4>
+		<h1>CS stuff by ELia Doumerc</h1><hr>
+		<h4>A collection of essays and software</h4>
 		<a class="right" href="http://www.elia-doumerc.es">Visit my personal website &rarr;</a>
 	</header>
 {{ end }}
 {{ define "main" }}
 	<main class="container p-4">
 		<div id="programs">
+			<h1>Software</h1>
 			{{ range .Pages }}
-				<a class="card" href="{{ .RelPermalink }}">
-					<img class="card-img-top" {{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
-					<div class="card-body">
-					<h5 class="card-title">{{ .Title }}</h5>
-					<p class="card-text">{{ .Description }}</p>
-					<p class="card-text"><small class="text-muted">{{ .Date.Format "2006-01-02" }}</small></p>
-					</div>
-				</a>
+				{{ partial "card" . }}
 			{{ end }}
 			<!-- Eine Karte einfach so, damit es nicht so leer ist. -->
 			<div class="card p-3">
@@ -32,6 +26,13 @@
 				</footer>
 				</blockquote>
 			</div>
+		</div>
+		<hr>
+		<div id="docs">
+			<h1>Essays</h1>
+			{{ range $.Site.Data.docs }}
+				{{ partial "doc" . }}
+			{{ end }}
 		</div>
 	</main>
 {{ end }}
