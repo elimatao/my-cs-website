@@ -18,16 +18,6 @@ main{
 	padding-right: 18px;
 	border-right: 3px solid #ea433b;
 }
-.sidenav a {
-	padding-top: 6px;
-	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
-	display: block;
-}
-.sidenav a:hover {
-	color: #f1f1f1;
-}
 
 /* Download-Button */
 .download, .download:hover{
@@ -69,4 +59,20 @@ header .navOpen, .navOpen:hover{
 #TableOfContents ul{
 	list-style-type: none;
 	padding: 0;
+}
+
+#TableOfContents a {
+	padding-top: 6px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #818181;
+	display: block;
+}
+#TableOfContents a:hover {
+	color: #f1f1f1;
+}
+
+#TableOfContents ul ul a{
+	font-size: 18px;
+	text-indent: .5cm;
 }
