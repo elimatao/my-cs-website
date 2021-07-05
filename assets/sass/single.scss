@@ -1,3 +1,5 @@
+$red: #ea433b;
+
 main{
 	margin-left: 20%;
 	overflow-x: hidden;
@@ -16,7 +18,7 @@ main{
 	padding-top: 50px;	
 	padding-left: 18px;
 	padding-right: 18px;
-	border-right: 3px solid #ea433b;
+	border-right: 3px solid $red;
 }
 
 /* Download-Button */
@@ -27,10 +29,10 @@ main{
 	border-radius: 10%;
 	padding: 2px;
 	z-index: 5;
+	text-decoration: none;
 }
 .download:hover{
 	background-color: #ada;
-	text-decoration: none;
 }
 header .navOpen, .navOpen:hover{
 	position: fixed;
@@ -54,6 +56,7 @@ header .navOpen, .navOpen:hover{
 	top: 6px;
 	right: 18px;
 	display: none;
+	text-decoration: none;
 }
 
 #TableOfContents ul{

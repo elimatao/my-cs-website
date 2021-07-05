@@ -5,7 +5,7 @@ draft: false
 description: A program for testing the site.
 featured_image: /images/hello.png
 download_url: https://github.com/elimatao/hello-world/archive/master.zip
-has_formulas: true
+has_formulas: false
 ---
 ## Purpose
 This classic hello world program was only created for testing the website, so **don't waste your time installing it!** Rather look at the cool features of my website. 😀

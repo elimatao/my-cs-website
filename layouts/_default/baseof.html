@@ -11,12 +11,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<!-- link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" -->
 	
 	<link href="/images/elia.ico" rel="icon">
 
-    {{ block "static" . }}{{ end }}
-    <link rel="stylesheet" href="/css/general.css">
+    
+
+	{{ $general := resources.Get "sass/general.scss" }}
+	{{ $general := $general | resources.ToCSS }}
+	<link rel="stylesheet" href="{{ $general.RelPermalink }}">
+	
+	{{ block "static" . }}{{ end }}
 	
 	<noscript>
 		It seems like your browser doesn't support JavaScript.

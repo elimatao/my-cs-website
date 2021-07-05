@@ -1,5 +1,9 @@
 {{ define "static"}}
-    <link href="/css/single.css" rel="stylesheet">
+
+    {{ $single := resources.Get "sass/single.scss" }}
+    {{ $single := $single | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $single.RelPermalink }}">
+
     <script defer src="/js/single.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 

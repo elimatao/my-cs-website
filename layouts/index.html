@@ -1,5 +1,7 @@
 {{ define "static" }}
-	<link href="/css/index.css" rel="stylesheet">
+	{{ $index := resources.Get "sass/index.scss" }}
+    {{ $index := $index | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $index.RelPermalink }}">
 {{ end }}
 {{ define "header" }}
 	<header class="container-fluid p-5 sec3">
