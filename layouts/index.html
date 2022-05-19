@@ -14,9 +14,11 @@
 	<main class="container p-4">
 		<div id="programs">
 			<h1>Software</h1>
+			
 			{{ range .Pages }}
 				{{ partial "card" . }}
 			{{ end }}
+			
 			<!-- Eine Karte einfach so, damit es nicht so leer ist. -->
 			<div class="card p-3">
 				<blockquote class="blockquote mb-0 card-body">
@@ -27,7 +29,7 @@
 		<hr>
 		<div id="docs">
 			<h1>Essays</h1>
-			{{ range $.Site.Data.docs }}
+			{{ range sort $.Site.Data.docs "Date" "desc"}}
 				{{ partial "doc" . }}
 			{{ end }}
 		</div>
