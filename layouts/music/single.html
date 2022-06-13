@@ -1,0 +1,27 @@
+{{ define "title" }}
+    Elia Doumerc | {{ .Title }}
+{{ end }}
+
+{{ define "static" }}
+    <script src="/js/music.js"></script>
+{{ end }}
+
+{{ define "header" }}
+    <header class="first"></header>
+{{ end }}
+
+{{ define "main" }}
+    <main class="sec1">
+        <div class="container p-5">
+            <h2>{{ T "music_welcome" }}</h2>
+            <hr>
+            <p>{{ T "music_welcome_2" }}</p>
+            <hr>
+            {{ T "select_composer" }}
+            <select name="composerSelect" id="composerSelect">
+                <option disabled selected></option>
+            </select>
+        </div>
+        <div id="recordings"></div>
+    </main>
+{{ end }}

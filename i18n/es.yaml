@@ -1,0 +1,30 @@
+## baseof.html
+# Head
+noscript: Parece que tu navegador no apoya la tecnología JavaScript o la tiene desactivada. Ve a la sección "sobre este sitio" para más información.
+
+# Navigation
+about_me: Sobre mí
+music: Música
+games: Juegos
+informatics: Informática
+
+contact: Contacto
+
+# Footer
+about: sobre este sitio
+privacy: Política de privacidad
+legal: Aviso legal
+login: Iniciar sesión
+
+## index.html
+# header
+short_description: Estudiante en 1.° de Bachillerato y pianista
+
+# main
+welcome: Bienvenidos a mi sitio web!
+
+news: Novedades
+
+## cs/single.html
+index: Índice
+last_update: Última actualización

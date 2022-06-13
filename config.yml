@@ -1,6 +1,8 @@
-baseURL: http://code.elia-doumerc.es/
-languageCode: en-us
+baseURL: https://elia.doumerc.me
+DefaultContentLanguage: es
 title: My New Hugo Site
+
+enableMissingTranslationPlaceholders: True
 
 markup:
   highlight:
@@ -9,3 +11,108 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+
+languages:
+  es:
+    languageCode: es
+    languageName: Español
+    weight: 1
+
+    menu:
+      main:
+      - name: Sobre mí
+        url: /sobre_mi/
+        weight: 1
+      - name: Música
+        url: /musica/
+        weight: 2
+      - name: Juegos
+        url: /games/
+        weight: 3
+      - name: Informática
+        url: /cs/
+        weight: 4
+      
+      footer:
+      - name: sobre este sitio
+        url: /cs/sobre_este_sitio/
+        weight: 1
+      - name: Política de privacidad
+        url: /privacidad/
+        weight: 2
+      - name: Aviso legal
+        url: /legal/
+        weight: 3
+      - name: Iniciar sesión
+        url: /iniciar_sesion/
+        weight: 4
+
+  
+  en:
+    languageCode: en
+    languageName: English
+    weight: 2
+
+    menu:
+      main:
+      - name: About me
+        url: /about_me/
+        weight: 1
+      - name: Music
+        url: /music/
+        weight: 2
+      - name: Games
+        url: /games/
+        weight: 3
+      - name: Informatics
+        url: /cs/
+        weight: 4
+      
+      footer:
+      - name: About this site
+        url: /en/cs/about_this_site/
+        weight: 1
+      - name: Privacy policy
+        url: /privacidad/
+        weight: 2
+      - name: Legal
+        url: /legal/
+        weight: 3
+      - name: Log in
+        url: /en/log_in
+        weight: 4
+  
+  de:
+    languageCode: de
+    languageName: Deutsch
+    weight: 3
+
+    menu:
+      main:
+      - name: Über mich
+        url: /ueber_mich/
+        weight: 1
+      - name: Musik
+        url: /musik/
+        weight: 2
+      - name: Spiele
+        url: /games/
+        weight: 3
+      - name: Informatik
+        url: /cs/
+        weight: 4
+        
+      footer:
+      - name: Über diese Seite
+        url: /de/cs/ueber_diese_seite/
+        weight: 1
+      - name: Datenschutz
+        url: /privacidad/
+        weight: 2
+      - name: Rechtlicher Hinweis
+        url: /legal/
+        weight: 3
+      - name: Einloggen
+        url: /de/einloggen
+        weight: 4

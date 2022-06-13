@@ -1,8 +1,0 @@
-<a class="card" href="{{ .RelPermalink }}">
-    <img class="card-img-top" {{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
-    <div class="card-body">
-        <h5 class="card-title">{{ .Title }}</h5>
-        <p class="card-text">{{ .Description }}</p>
-        <p class="card-text"><small class="text-muted">{{ .Date.Format "2006-01-02" }}</small></p>
-    </div>
-</a>
