@@ -2,29 +2,26 @@
 # Head
 noscript: Parece que tu navegador no apoya la tecnología JavaScript o la tiene desactivada. Ve a la sección "sobre este sitio" para más información.
 
-# Navigation
-about_me: Sobre mí
-music: Música
-games: Juegos
-informatics: Informática
-
 contact: Contacto
 
-# Footer
-about: sobre este sitio
-privacy: Política de privacidad
-legal: Aviso legal
-login: Iniciar sesión
+## single.html
+index: Índice
+last_update: Última actualización
 
-## index.html
+
+## /index.html
 # header
-short_description: Estudiante en 1.° de Bachillerato y pianista
+short_description: Futuro estudiante de informática y pianista
 
 # main
 welcome: Bienvenidos a mi sitio web!
 
 news: Novedades
 
-## cs/single.html
-index: Índice
-last_update: Última actualización
+## /cs/list.html
+essays: Artículos
+
+## /music/single.html
+music_welcome: Bienvenidos a la sección de Música!
+music_welcome_2: Aquí pueden acceder a la colección creciente de mis grabaciones.
+select_composer: Compositor seleccionado

@@ -8,6 +8,12 @@ markup:
   highlight:
     style: emacs
 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
+
+
   goldmark:
     renderer:
       unsafe: true

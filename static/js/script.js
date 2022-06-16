@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 	window.onscroll = scroll;
 	document.querySelector('.icon').onclick = collapse;
-	window.onload = modContent;
-	window.onresize = modContent;
 	try{
 		buttons = document.querySelectorAll('.submitter');
 		for (let i = 0; i < buttons.length; i++) buttons[i].disabled = "true";
@@ -32,11 +30,6 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 });
 
-const xs = 576;
-const sm = 768;
-const md = 992;
-const lg = 1200;
-const xl = 1500;
 
 function scroll()
 {
@@ -88,27 +81,8 @@ function collapse()
 	scroll();
 }
 
-function modContent() 
-{
-	var iframes = document.querySelectorAll('iframe')
-	for (let i = 0; i < iframes.length; i++) 
-	{
-		if (window.innerWidth < xs){
-			iframes[i].height = "200px";
-		} else if (window.innerWidth < sm){
-			iframes[i].height = "350px";
-		} else if (window.innerWidth < md){
-			iframes[i].height = "250px";
-		} else if (window.innerWidth < lg){
-			iframes[i].height = "300px";
-		} else {
-			iframes[i].height = "470px";
-		}
-	}
-}
-
 function inputControl(){
-  form = this.parentElement.parentElement;
+	form = this.parentElement.parentElement;
 	var submit = form.querySelector('.submitter');
 	var fields = form.querySelectorAll('.form-control');
 	for (let i = 0; i < fields.length; i++)
@@ -126,25 +100,25 @@ function inputControl(){
 var code;
 function verifyEmail()
 {
-  if (document.querySelector("#accept").checked === false){
-    alert("You need to accept the privacy policy.");
-    return;
-  }
-  code = 100000 + Math.floor(Math.random() * 899999);
-  
-  const request = new XMLHttpRequest();
+	if (document.querySelector("#accept").checked === false){
+		alert("You need to accept the privacy policy.");
+		return;
+	}
+	code = 100000 + Math.floor(Math.random() * 899999);
+	
+	const request = new XMLHttpRequest();
 	request.open('POST', '/verifyEmail');
 	const outData = new FormData();
 	outData.append('mail', document.querySelector('#mail').value);
 	outData.append('code', code);
 	request.send(outData);
 	
-  document.querySelector('.befVer').style.display = "none";
-  document.querySelector('.aftVer').style.display = "block";
-  
-  document.querySelector('#mailCode').onkeyup = function(){
-    var button = document.querySelector('#verifyCode');
-    if (this.value != code) button.disabled = true;
-    else button.disabled = false;
-  }
+	document.querySelector('.befVer').style.display = "none";
+	document.querySelector('.aftVer').style.display = "block";
+	
+	document.querySelector('#mailCode').onkeyup = function(){
+		var button = document.querySelector('#verifyCode');
+		if (this.value != code) button.disabled = true;
+		else button.disabled = false;
+	}
 }

@@ -1,11 +1,13 @@
 # TODO
 ## Content
-- [ ] Update at least the index.html site
-- [ ] !Add an image to the "about me" page.
-- [ ] !Lösung für E-Mail in Contakt, Rechtlich und Datenschutz finden
+- [ ] Add github and youtube links to the contact thing.
+- [ ] !Games section
+- [ ] !Lösung für E-Mail in Kontakt, Rechtlich und Datenschutz finden
+- [x] !Update at least the index.html site
+- [x] !Add an image to the "about me" page.
 
 ## API
-- [ ] Use more GET requests for better linking
+- [ ] Use more GET requests for better linking <-- How can I do better linking if the URL is not from the server? --> Hacky javascript workaround. Fucking nightmare.
 
 ## Structure
 - [ ] Breakdown and refactor script.js
@@ -16,11 +18,13 @@
 - [x] Karten vereinen
 
 ## General
-- [ ] !Endgültige Lösung für *Bilder* finden (in-text)
+- [ ] Endgültige Lösung für *Bilder* finden (in-text)
 - [ ] Update Bootstrap?
+- [x] !OK lösung für Bilder in Text
 - [x] Linking noch einmal überprüfen :(
 
 ## Performance
+- [ ] paginate starting at a certain number of items in /cs/list.html and /index.html
 - [ ] kleine Bilder auf cs/list.html
 - [x] Icon für Navigation verändern
 
@@ -30,10 +34,13 @@
 - [ ] Enhance edge case of Card with no image
 
 ## Multilingual
-- [ ] Fully translate the missing content
+- [ ] !Fully translate the missing content (done) + strings
+- [ ] Find a way to automate the translation_key extraction
 - [x] !Always show untranslated content
 - [x] Make section links multilingual as soon as available (Seems to be fixed)
 
 ## Misc
+- [ ] Use JS fetch()
+- [ ] More elegant solution for the iframes in /music (Using bootstrap ratio class)
+- [ ] Get rid of the download button? --> Maybe add more buttons linking towards the repo, docs, etc.
 - [x] cs/single verbessern (aside nur manchmal)
-- [ ] Get rid of the download button?

@@ -56,7 +56,7 @@
             <h4>{{ .Description }}</h4>
             
             {{ if isset .Params "download_url" }}
-            <a href="{{ .Params.download_url }}" class="left download" download>{{ T "download" }}</a>
+            <a href="{{ .Params.download_url }}" class="download" download>{{ T "download" }}</a>
             {{ end }}
         </div>
     {{end}}

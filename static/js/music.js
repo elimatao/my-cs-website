@@ -1,43 +1,87 @@
+"use strict";
+
 const hostDomain = "http://127.0.0.1:5000"
 
 document.addEventListener("DOMContentLoaded", function(){
+
+	var composerSelect = document.getElementById("composerSelect");
     
-    fetchComposers();
+	composerSelect.onchange = composerHandler;
     
-    document.getElementById("composerSelect").onchange = composerHandler;
+	renderComposers();
+
+	// Resizes the viedo frames
+	window.onload = modContent;
+	window.onresize = modContent;
 });
 
-function fetchComposers() {
-    const request = new XMLHttpRequest();
-    request.open("GET", `${hostDomain}/fetchComposers`);
-    request.send()
-    
-    request.onload = function(){
-        const inData = JSON.parse(request.responseText);
-        const select = document.getElementById("composerSelect");
-        
-        for (let i = 0; i < inData.length; i++) {
-            select.innerHTML += `<option value="${inData[i].composer}">${inData[i].composer}</option>`;
-        }
-    };
+// Calls fetchComposers and waits for it to finish, then renders them.
+async function renderComposers() {
+	try{
+		const inData = await fetchComposers();
+
+		// If the composers can be fetched, add them to the select.
+		for (let i = 0; i < inData.length; i++) {
+			composerSelect.innerHTML += `<option value="${inData[i].composer}">${inData[i].composer}</option>`;
+		}
+	} catch(error){
+		console.log(`Error: ${error}`);
+	}
+	
+	checkQuery(); // Checks if a specific composer has been requested in the http call.
 };
+
+// I might as well just use the fetch function
+function fetchComposers(){
+	return new Promise((resolve, reject) => {
+		var request = new XMLHttpRequest();
+		request.open("GET", `${hostDomain}/fetchComposers`);
+		
+		request.onload = () => {
+			if (request.status == 200){
+				console.log("Success");
+				resolve(JSON.parse(request.responseText));
+			} else{
+				console.log("failure");
+				reject(request.status);
+			}
+		};
+		request.onerror = () => {
+			console.log("failure");
+			reject(request.statusText);
+		}
+		request.send();
+	});
+}
+
+function checkQuery(){
+	const params = new URLSearchParams(window.location.search);
+	const composer = params.get("composer");
+
+	// Überprüft, ob der in der URL angegebene Komponist eine Option ist und ändert sie gegebenenfalls.
+	for (let i = 0; i<composerSelect.options.length; i++){
+		if (composerSelect.options[i].value === composer){
+			composerSelect.selectedIndex = i;
+			composerSelect.onchange(); // Muss man noch extra aufrufen, weil das darüber anscheinend nicht ausreicht.
+		}
+	}
+}
 
 function composerHandler()
 {
-    var composer = document.querySelector('#composerSelect').value;
-    const language = document.documentElement.attributes.lang.value;
+	const language = document.documentElement.attributes.lang.value;
 	
     const request = new XMLHttpRequest();
 	request.open('POST', `${hostDomain}/specificMusic`)
 	const outData = new FormData();
-	outData.append('composer', composer);
+	outData.append('composer', this.value);
 	outData.append('language', language);
 	request.send(outData);
 	
 	request.onload = function() {
-        const inData = JSON.parse(request.responseText);
+		const inData = JSON.parse(request.responseText);
 		var tipp1, tipp2;
-		var i = 0;
+		let i = 0;
 		var main = document.getElementById('recordings');
 		main.textContent = "";
 		
@@ -102,7 +146,32 @@ function composerHandler()
 				`;
 			}
 		}
-		modContent();//passt die neuen Inhalte an Fenstergröße an
+		modContent(); //passt die neuen Inhalte an Fenstergröße an
 	}
 	return false;
+}
+
+const xs = 576;
+const sm = 768;
+const md = 992;
+const lg = 1200;
+const xl = 1500;
+
+function modContent() 
+{
+	var iframes = document.querySelectorAll('iframe')
+	for (let i = 0; i < iframes.length; i++) 
+	{
+		if (window.innerWidth < xs){
+			iframes[i].height = "200px";
+		} else if (window.innerWidth < sm){
+			iframes[i].height = "350px";
+		} else if (window.innerWidth < md){
+			iframes[i].height = "250px";
+		} else if (window.innerWidth < lg){
+			iframes[i].height = "300px";
+		} else {
+			iframes[i].height = "470px";
+		}
+	}
 }
