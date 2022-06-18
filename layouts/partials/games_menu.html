@@ -1,0 +1,7 @@
+<!-- Games menu -->
+<div class="tab first">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.games }}
+        <a href="{{ .URL | relLangURL }}" class="tablinks">{{ .Name }}</a>
+    {{ end }}
+</div>

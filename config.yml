@@ -34,7 +34,7 @@ languages:
         url: /musica/
         weight: 2
       - name: Juegos
-        url: /games/
+        url: /games/leds/
         weight: 3
       - name: Informática
         url: /cs/
@@ -50,9 +50,15 @@ languages:
       - name: Aviso legal
         url: /legal/
         weight: 3
-      - name: Iniciar sesión
-        url: /iniciar_sesion/
-        weight: 4
+
+
+      games:
+      - name: LEDs
+        url: /games/leds/
+        weight: 1
+      - name: GTA VI
+        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        weight: 2
 
   
   en:
@@ -69,7 +75,7 @@ languages:
         url: /music/
         weight: 2
       - name: Games
-        url: /games/
+        url: /games/leds/
         weight: 3
       - name: Informatics
         url: /cs/
@@ -88,6 +94,14 @@ languages:
       - name: Log in
         url: /en/log_in
         weight: 4
+
+      games:
+      - name: LEDs
+        url: /games/leds/
+        weight: 1
+      - name: GTA VI
+        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        weight: 2
   
   de:
     languageCode: de
@@ -103,7 +117,7 @@ languages:
         url: /musik/
         weight: 2
       - name: Spiele
-        url: /games/
+        url: /games/leds/
         weight: 3
       - name: Informatik
         url: /cs/
@@ -122,3 +136,11 @@ languages:
       - name: Einloggen
         url: /de/einloggen
         weight: 4
+
+      games:
+      - name: LEDs
+        url: /games/leds/
+        weight: 1
+      - name: GTA VI
+        url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        weight: 2

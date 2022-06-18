@@ -10,6 +10,7 @@
   background-color: inherit;
   float: left;
   border: none;
+  border-right: 1px solid lightgray;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -19,7 +20,7 @@
 
 /* Change background color of buttons on hover */
 .tab a:hover {
-  background-color: #ddd;
+  background-color: lightgray;
   text-decoration: none;
 }
 

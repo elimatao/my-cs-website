@@ -6,4 +6,4 @@ draft: False
 ---
 Here you can read something about me, watch my recordings or try some games. \
 I created this page as final project for [CS50x](https://www.edx.org/es/course/cs50s-introduction-to-computer-science). \
-If you want to see more information about the site, follow [this link](#).
+If you want to see more information about the site, follow [this link]({{< ref "/cs/about" >}}).

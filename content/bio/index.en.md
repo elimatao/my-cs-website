@@ -1,6 +1,6 @@
 ---
-title: Sobre mí
-slug: sobre_mi
+title: About me
+slug: about_me
 date: 2020-08-01
 lastmod:
 description:

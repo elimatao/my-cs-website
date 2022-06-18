@@ -12,10 +12,9 @@ has_formulas: False
 ## Identificación y Titularidad
 En cumplimiento del artículo 10 de la Ley 34 / 2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos.
 Titular: Elia Doumerc \
-NIF: Y3566860B \
-Correo electrónico: elia.doumerc@yahoo.com \
-Sitio Web: http://elia.doumerc.me \
-Finalidad: La finalidad del sitio Web elia.doumerc.me es informar sobre Elia Doumerc.
+Correo electrónico: Ver en el menu bajo "Contacto".
+Sitio Web: https://elia.doumerc.me \
+Finalidad: La finalidad del sitio es informar sobre Elia Doumerc.
 
 ## Condiciones de Uso
 La utilización del sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas: \
@@ -55,4 +54,4 @@ La información y servicios incluidos o disponibles a través de este sitio Web 
 Este Aviso Legal se rige íntegramente por la legislación española. Siempre que no haya una norma que obligue a otra cosa, para cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de este Aviso Legal, así como de las reclamaciones que puedan derivarse de su uso, las partes acuerdan someterse a los Jueces y Tribunales de la provincia de Las Palmas, con renuncia expresa de cualquier otra jurisdicción que pudiera corresponderles.
 
 ## Contacto
-En caso de que usted tenga cualquier duda acerca de estas Condiciones legales o quiera realizar cualquier comentario sobre este sitio Web, puede enviar un mensaje de correo electrónico a elia.doumerc@yahoo.com. 
+En caso de que usted tenga cualquier duda acerca de estas Condiciones legales o quiera realizar cualquier comentario sobre este sitio Web, puede enviarme un correo electrónico.

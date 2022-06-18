@@ -1,8 +1,8 @@
 # TODO
 ## Content
 - [ ] Add github and youtube links to the contact thing.
-- [ ] !Games section
-- [ ] !Lösung für E-Mail in Kontakt, Rechtlich und Datenschutz finden
+- [x] !!Lösung für E-Mail in Kontakt, Rechtlich und Datenschutz finden
+- [x] !!Games section
 - [x] !Update at least the index.html site
 - [x] !Add an image to the "about me" page.
 
@@ -29,15 +29,18 @@
 - [x] Icon für Navigation verändern
 
 ## Visual
-- [ ] cs/single.html: improve the imgHeader (avoid repetitions of images)
+- [ ] ! cs/single.html: improve the imgHeader (avoid repetitions of images)
 - [ ] Make the language selector prettier
 - [ ] Enhance edge case of Card with no image
 
 ## Multilingual
-- [ ] !Fully translate the missing content (done) + strings
 - [ ] Find a way to automate the translation_key extraction
+- [x] !!Fully translate the missing content (done) + strings
 - [x] !Always show untranslated content
 - [x] Make section links multilingual as soon as available (Seems to be fixed)
+
+## Security
+- [ ] Use a CAPTCHA before showing the email.
 
 ## Misc
 - [ ] Use JS fetch()

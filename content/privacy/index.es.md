@@ -16,10 +16,9 @@ Muchas gracias por su colaboración.
 
 ## ¿Quién soy?
 Mi nombre: Elia Doumerc \
-Mi NIF: Y3566860B \
 Mi actividad principal: Estudiante \
-Mi dirección de correo electrónico de contacto: elia.doumerc@yahoo.com \
-Mi página web: http://elia.doumerc.me
+Mi dirección de correo electrónico de contacto: Ver en el menú bajo "Contacto".
+Mi página web: https://elia.doumerc.me
 
 ## ¿Para qué voy a usar sus datos?
 Sus datos personales serán usados para poder relacionarme con usted y poder prestarle mis servicios.
