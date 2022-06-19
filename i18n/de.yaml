@@ -1,0 +1,40 @@
+## baseof.html
+# Head
+noscript: Scheinbar unterstützt dein Browser nicht die JavaScript Technologie oder sie ist deaktiviert. Gehe zur Abteilung "über die Seite" für mehr Information.
+
+contact: Kontakt
+close: Schließen
+
+## single.html
+index: Index
+last_update: Letztes Update
+download: Herunterladen
+
+
+## /index.html
+# header
+short_description: Künftiger Informatikstudent und Pianist
+
+# main
+welcome: Willkommen auf meiner Webseite!
+
+news: Neuigkeiten
+
+## /cs/list.html
+essays: Artikel
+
+## /music/single.html
+music_welcome: Willkommen in der Musikabteilung!
+music_welcome_2: Hier habt ihr Zugang zur wachsenden Sammlung meiner Aufnahmen.
+select_composer: Ausgewählter Komponist
+
+## /games/leds/single.html
+nickname: Pseudonym
+round_count: Rundenzahl
+game_mode: Modus
+play: Spielen
+instructions: So funktioniert es
+game_result: Ergebnis
+check: Überprüfen
+return: Zurück
+global_counter: GLOBALE Bestenliste

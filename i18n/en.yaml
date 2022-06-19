@@ -1,0 +1,39 @@
+## baseof.html
+# Head
+noscript: It seems like your browser doesn't support the JavaScript technology or has it turned off. Go to the section "about this site" for more information.
+
+contact: Contact
+close: Close
+
+## single.html
+index: Index
+last_update: Last Update
+download: Download
+
+## /index.html
+# header
+short_description: Future CS-Student and pianist
+
+# main
+welcome: Welcome to my Website!
+
+news: News
+
+## /cs/list.html
+essays: Essays
+
+## /music/single.html
+music_welcome: Welcome to the music section!
+music_welcome_2: Here is the growing collection of my recordings. 
+select_composer: Selected composer
+
+## /games/leds/single.html
+nickname: Nickname
+round_count: Number of rounds
+game_mode: Mode
+play: Play
+instructions: How it works
+game_result: Result
+check: Check
+return: Return
+global_counter: GLOBAL highsore table

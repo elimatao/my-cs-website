@@ -1,10 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+title: {{ replace .Name "-" " " | title }}
+slug: {{ replace .Name "-" " " | title }}
+date: {{ now.Format "2006-01-02" }}
+lastmod: {{ now.Format "2006-01-02" }}
 description:
 featured_image:
-download_url:
-has_formulas: false
+show_featured_image: False
+draft: True
+has_formulas: False
 ---
-
+## 1. Heading

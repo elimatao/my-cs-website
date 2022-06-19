@@ -1,13 +1,13 @@
 main {
-  margin-left: 20%;
   overflow-x: hidden; }
 
 /* template-specific  */
 .sidenav {
+  display: none;
   position: fixed;
   height: 100%;
-  width: 20%;
-  z-index: 99;
+  z-index: 50;
+  width: 250px;
   top: 0;
   left: 0;
   overflow-x: hidden;
@@ -15,7 +15,7 @@ main {
   padding-top: 50px;
   padding-left: 18px;
   padding-right: 18px;
-  border-right: 3px solid #ea433b; }
+  /*border-right: 3px solid $red;*/ }
 
 /* Download-Button */
 .download, .download:hover {
@@ -30,28 +30,25 @@ main {
 .download:hover {
   background-color: #ada; }
 
-header .navOpen, .navOpen:hover {
+.navOpen, .navClose, .navOpen:hover, .navClose:hover {
   position: fixed;
-  z-index: 50;
-  right: auto;
-  top: 20px;
-  bottom: auto;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
-  padding: 5px 10px 5px 10px;
-  left: 30px;
-  font-size: 36px; }
+  top: 50%;
+  z-index: 100;
+  display: block;
+  color: #ea433b;
+  background-color: black;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 12px 8px 12px 6px; }
 
 .navOpen:hover {
   background-color: white;
   box-shadow: 2px 4px 5px grey; }
 
 .navClose {
-  position: absolute;
-  top: 6px;
-  right: 18px;
   display: none;
-  text-decoration: none; }
+  text-decoration: none;
+  left: 250px; }
 
 #TableOfContents ul {
   list-style-type: none;
@@ -70,3 +67,21 @@ header .navOpen, .navOpen:hover {
 #TableOfContents ul ul a {
   font-size: 18px;
   text-indent: .5cm; }
+
+.p1 {
+  float: right;
+  max-width: 50%;
+  max-height: 450px;
+  margin-left: 12px;
+  margin-bottom: 8px;
+  border: 4px solid black;
+  border-radius: 4px;
+  display: block; }
+
+@media (max-width: 576px) {
+  .p1 {
+    float: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px; } }
