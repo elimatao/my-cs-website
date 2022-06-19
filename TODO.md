@@ -1,6 +1,6 @@
 # TODO
 ## Content
-- [ ] Add github and youtube links to the contact thing.
+- [x] Add github and youtube links to the contact thing.
 - [x] !!Lösung für E-Mail in Kontakt, Rechtlich und Datenschutz finden
 - [x] !!Games section
 - [x] !Update at least the index.html site

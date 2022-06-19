@@ -1,3 +1,6 @@
+const hostDomain = "http://api.doumerc.me"
+// const hostDomain = "http://127.0.0.1:5000";
+
 document.addEventListener('DOMContentLoaded', function(){
 	window.onscroll = scroll;
 	document.querySelector('.icon').onclick = collapse;

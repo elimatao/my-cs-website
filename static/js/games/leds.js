@@ -1,5 +1,3 @@
-const hostDomain = "http://127.0.0.1:5000"
-
 document.addEventListener('DOMContentLoaded', function(){
 	// Get the element with id="defaultOpen" and click on it
 	document.querySelector('#LEDConfig').onclick = LEDGame;
