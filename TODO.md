@@ -18,6 +18,7 @@
 - [x] Karten vereinen
 
 ## General
+- [ ] !fix missing https
 - [ ] Endgültige Lösung für *Bilder* finden (in-text)
 - [ ] Update Bootstrap?
 - [x] !OK lösung für Bilder in Text
@@ -29,6 +30,7 @@
 - [x] Icon für Navigation verändern
 
 ## Visual
+- [ ] music: remove "undefined" for incomplete data
 - [ ] ! cs/single.html: improve the imgHeader (avoid repetitions of images)
 - [ ] Make the language selector prettier
 - [ ] Enhance edge case of Card with no image
