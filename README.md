@@ -1,3 +1,3 @@
-# elimatao.github.io
+# elia.doumerc.me
 
-A well structured website built with **Hugo**.
+A well structured static website built with **[Hugo](https://gohugo.io)**.

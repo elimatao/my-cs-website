@@ -26,17 +26,18 @@
 
 ## Performance
 - [ ] paginate starting at a certain number of items in /cs/list.html and /index.html
-- [ ] kleine Bilder auf cs/list.html
+- [ ] kleine Bilder auf cs/list.html (width=350 - 400 px)
 - [x] Icon für Navigation verändern
 
 ## Visual
-- [ ] music: remove "undefined" for incomplete data
+- [ ] ! music: add a "please wait..." message while the api is starting
+- [ ] ! music: remove "undefined" for incomplete data
 - [ ] ! cs/single.html: improve the imgHeader (avoid repetitions of images)
 - [ ] Make the language selector prettier
 - [ ] Enhance edge case of Card with no image
 
 ## Multilingual
-- [ ] Find a way to automate the translation_key extraction
+- [ ] Find a way to automate the translation_key extraction (like flask-babel)
 - [x] !!Fully translate the missing content (done) + strings
 - [x] !Always show untranslated content
 - [x] Make section links multilingual as soon as available (Seems to be fixed)

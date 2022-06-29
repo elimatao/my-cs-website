@@ -26,7 +26,7 @@ The sites components are:
 
 The core of this site is the Flask-app, which is cloud-hosted by [Heroku](https://www.heroku.com/). When a user makes a request to the app, it sends the required HTML, CSS and JS files. Some contents however are dependent of a database, since they change frequently and it's the only way to store them.
 
-Thanks to th Jinja library, that data can be dinamically integrated into the HTML files when sent to the user. In adition to that, the AJAX tecnology (Asynchronous JavaScript And XML) allows the exchange of information between the server and the browser of the user without need to reload the page, which can be seen when selecting a composer in the music section.
+Thanks to th Jinja library, that data can be dinamically integrated into the HTML files when sent to the user. In adition to that, the <abbr title="Asynchronous JavaScript And XML">AJAX</abbr> tecnology allows the exchange of information between the server and the browser of the user without need to reload the page, which can be seen when selecting a composer in the music section.
 
 ---
 

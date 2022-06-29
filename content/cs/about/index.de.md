@@ -26,7 +26,7 @@ Diese Webseite besteht aus:
 
 Den Kern der Webseite bildet die Flask-App. Sie läuft auf einem Server von [Heroku](https://www.heroku.com/). Wenn ein Nutzer auf die Webseite zugreifen will, "sendet" die App die benötigten HTML, CSS und JavaScript Dokumente. Einige Inhalte sind jedoch von einer Datenbank abhängig, da sie sich ständig verändern und irgendwo gespeichert werden müssen.
 
-Dank der Bibliothek Jinja kann man diese Daten beim Senden der Seite in das HTML Dokument einfügen. Außerdem ermöglicht die AJAX Technologie (Asynchronous JavaScript And XML) den Austausch von Daten zwischen Server und lokalem Browser ohne das Nachladen von Seiten. Das ist zum Beispiel beim Auswählen eines Komponisten im Musikabschnitt bemerkbar.
+Dank der Bibliothek Jinja kann man diese Daten beim Senden der Seite in das HTML Dokument einfügen. Außerdem ermöglicht die <abbr title="Asynchronous JavaScript And XML">AJAX</abbr> Technologie den Austausch von Daten zwischen Server und lokalem Browser ohne das Nachladen von Seiten. Das ist zum Beispiel beim Auswählen eines Komponisten im Musikabschnitt bemerkbar.
 
 ---
 

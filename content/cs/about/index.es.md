@@ -24,7 +24,7 @@ El sitio está compuesto por:
 
 El núcleo de este sitio es la aplicación Flask, que está en un servidor de [Heroku](https://www.heroku.com/). Cuando un usuario quiere acceder al sitio, esta "envía" los documentos HTML, CSS y JS necesarios. Algunos contenidos sin embargo son dependientes de una base de datos, ya que cambian frecuentemente y es la única manera de guardarlos.
 
-Gracias a la librería Jinja se puede integrar esos datos en el documento HTML al cargar la página. Además, la técnica AJAX (Asynchronous JavaScript And XML) permite el intercambio de información entre la aplicación en el lado del servidor y el navegador del usuario sin tener que recargar la página. Esto por ejemplo es visible al seleccionar un compositor en la sección de música.
+Gracias a la librería Jinja se puede integrar esos datos en el documento HTML al cargar la página. Además, la tecnología <abbr title="Asynchronous JavaScript And XML">AJAX</abbr> permite el intercambio de información entre la aplicación en el lado del servidor y el navegador del usuario sin tener que recargar la página. Esto por ejemplo es visible al seleccionar un compositor en la sección de música.
 
 ---
 
