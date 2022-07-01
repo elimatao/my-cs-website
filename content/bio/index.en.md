@@ -2,19 +2,24 @@
 title: About me
 slug: about_me
 date: 2020-08-01
-lastmod:
+lastmod: 2022-07-29
 description:
 draft: False
 ---
-{{% img_resp src="elia.jpeg" alt="Elia" %}}
+{{% img_resp src="elia_2022.JPG" alt="Elia" %}}
 
-Currently, I'm a student of the German School in Las Palmas and the Conservatorio Profesional de Música Arenas-Albéniz, where I study the piano and harmonic analysis with Volodymyr Kotenko.
+I was born 2004 in Las Palmas and grew up in a franco-german family. At the age of three, I entered the kindergarten of the German School and stayed there for the remaining levels.
 
-I was born 2004 in Las Palmas de Gran Canaria. From the beginning, my parents spoke to me in German and French. At the age of three, I entered the kindergarten of the German School and, one year later, the Arenas-Albéniz conservatory, where I had piano lessons with Purificación Padilla for ten years. I really enjoy playing the piano. Especially romantic composers like Chopin or Mendelssohn, but also Bach, Beethoven and more modern ones. I've won prizes in various music competitions (also with my little sister Camille, who plays the chello), even managing to become a national price holder of Jugend Musiziert.
+Generally, I prefered the scientific subjects such as the project-oriented "STEM", physics and math. I won prizes in different math competitions. In May 2022, I graduated from school with a 1.0 (A-level).
 
-My school has an enjoyable ambience, an open architecture and is equiped modernly, but sometimes lessons could go forward faster. I generally prefer the STEM subjects like MINT, which is a mix of everything focussed on letting us plan and develop our own projects, physics and maths (I won many prizes in mathematics competitions).
+Starting from 2008 I received piano lessons in the Arenas-Albéniz conservatory. My first teacher was Purificación Padilla. Ten years later, I switched to Volodymyr Kotenko. I enjoy playing the piano, specially romantic composers like Chopin or Mendelssohn, but also Bach, Beethoven and some composers of the 20th century. I won multiple prizes in different music competitions (also with my little sister Camille, who plays the chello), even managing to become a federal price holder of "Jugend Musiziert". I concluded my piano education in June 2022 with a recital. The recordings of the pieces played there can be listened to [here]({{< ref "/music" >}}).
 
-In my free time (after finishing my homework and hours playing the piano) I go swimming, which isn't very interesting but at least good for the body. I also spend some time reading, mainly fantasy books written by authors like Colfer, Funke, Tolkien and Zafón, but also classic ones from Dumas or London. In addition to that I like to be with my dog Baloo or the cats Max and Moritz.
-I recently discovered the computer science, which is fascinating for its multiple ways to be aplied and its growing importance. I'm currently exploring a bit its fields, which made me create this website.
+2020 I discovered informatics through the recommendable online-course [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). As final project I built this website. It eventually became more than that and is being enhanced and updated from time to time. In the 20/21 course I participated in the federal informatics competition and managed to reach the final round, where I was cut into pieces.
+
+I find informatics to be fascinating because of its countless possibilities of being applied. Aditionally, the activity of building software is quite fulfilling. All this led me to start studying this subject in fall 2022.
+
+Apart from all this I spend my free time doing sports, playing with my dog Balloo and my Cats Max and Moritz or reading. Lastly I've specifically enjoyed reading fantasy novels written by Colfer, Funke, Tolkien and Zafón, but also classics from Dumas and London.
+
+Ocasionally I do some gaming, mostly RPGs (Assassin’s Creed, Cyberpunk 2077, The Witcher, Hitman, Watch Dogs, etc.) and multiplayer shooters (PUBG, Valorant).
 
 {{% /img_resp %}}

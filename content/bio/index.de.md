@@ -2,19 +2,25 @@
 title: Über mich
 slug: ueber_mich
 date: 2020-08-01
-lastmod:
+lastmod: 2022-07-29
 description:
 draft: False
 ---
-{{% img_resp src="elia.jpeg" alt="Elia" %}}
+{{% img_resp src="elia_2022.JPG" alt="Elia" %}}
 
-Aktuell bin ich Schüler der Deutschen Schule Las Palmas und des Conservatorio Profesional de Música Arenas-Albéniz, an dem ich Unterricht in Klavier und Musikanalyse von Volodymyr Kotenko erhalte.
+Ich wurde 2004 in Las Palmas geboren und wuchs in einer deutsch-französischen Familie auf. Im Alter von drei Jahren trat ich in den Kindergarten der Deutschen Schule ein und blieb dort für die restlichen Schulstufen.
 
-Ich wurde 2004 in Las Palmas geboren. Meine Eltern haben mit mir von Anfang an Deutsch und Französisch gesprochen. Im Alter von drei Jahren bin ich in den Kindergarten der Deutschen Schule eingetreten und ein Jahr später in das Conservatorio Arenas-Albéniz, wo ich zehn Jahre lang Klavierunterricht bei Purificación Padilla hatte. Ich spiele sehr gerne Klavier, besonders Komponisten der Romantik wie Chopin oder Mendelssohn, aber auch Bach, Beethoven und modernere. Ich habe mehere Preise bei verschiedenen Musikwettbewerben gewonnen (auch mit meiner kleinen Schwester Camille, die Cello spielt) und bin sogar Bundespreisträger bei Jugend Musiziert geworden.
+Generell bevorzugte ich die wissenschaftlichen Fächer wie das projektorientierte <abbr title="Mathematik, Informatik, Naturwissenschaft und Technik">MINT</abbr>, Physik und Mathe. Ich gewann übrigens Preise bei verschiedenen Mathematikwettbewerben. Im Mai 2022 schloss ich die Schule mit einem Abitur von 1,0 ab.
 
-Meine Schule hat eine angenehme Atmosphäre, eine offene Bauweise und ist modern ausgestattet. Allerdings könnte der Unterricht manchmal schneller vorangehen. Generell bevorzuge ich die wissenschaftlichen Fächer wie MINT, was eine an die eigenständige Planung und Ausführung von Projekten gerichtete Mischung vieler Fächer ist, Physik und Mathe (Ich habe auch Preise in verschiedenen Mathematikwettbewerben gewonnen).
+Ab 2008 erhielt ich im Conservatorio Arenas-Albéniz Klavierunterricht, zuerst zehn Jahre lang von Purificación Padilla, dann wechselte ich zu Volodymyr Kotenko. Ich spiele sehr gerne Klavier, besonders Komponisten der Romantik wie Chopin oder Mendelssohn, aber auch Bach, Beethoven und Komponisten des 20. Jahrhunderts. Ich gewann mehere Preise bei verschiedenen Musikwettbewerben (auch mit meiner kleinen Schwester Camille, die Cello spielt) und wrude sogar Bundespreisträger bei Jugend Musiziert.
+Meine Klavierausbildung schloss ich im Juni 2022 mit einem Konzertabend ab. Die Aufnahmen der dort gespielten Stücke sind [hier]({{< ref "/music" >}}) anzuhören.
 
-In meiner Freizeit (nach den Hausaufgaben und einiger Zeit am Klavier) gehe ich schwimmen, was nicht sehr interessant aber scheinbar gut für den Körper ist. Sonst lese ich gerne, hauptsächlich Fantasy-Bücher von Colfer, Funke, Tolkien und Zafón, aber auch Klassiker von Dumas oder London. Dazu verbringe ich gerne Zeit mit meinem Hund Baloo oder den Katzen Max und Moritz.
-Vor kurzem habe ich die Informatik entdeckt, die wegen ihrer zahlreichen Anwendungsmöglichkeiten und wachsender Bedeutung einfach faszinierend ist. Ich erforsche gerade ein wenig ihre Felder, was mich zur Erschaffung dieser Webseite gebracht hat. 
+2020 entdeckte ich während der Pandemie mit dem empfehlenswerten Online-Kurs [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) die Informatik für mich. Als Abschlussprojekt erstellte ich diese Webseite. Sie ist aber über den Kurs hinausgewachsen und wird von mir ab und zu erweitert und aktualisiert. Im Schuljahr 20/21 nahm ich am Bundeswettbewerb Informatik teil und schaffte es in die Endrunde, wo ich aber kleingehackt wurde.
+
+Ich finde die Informatik wegen ihrer zahlreichen Anwendungsmöglichkeiten und wachsenden Bedeutung faszinierend. Zudem ist die Tätigkeit der Softwareentwicklung recht erfüllend. Dies hat mich dazu gebracht, im Herbst 2022 ein Studium in diesem Bereich zu beginnen.
+
+Ansonsten treibe ich in meiner Freizeit Sport, verbringe Zeit mit meinem Hund Baloo und den Katzen Max und Moritz oder lese. Besonders gefallen haben mir in letzter Zeit Fantasy-Bücher von Colfer, Funke, Tolkien und Zafón, aber auch Klassiker von Dumas oder London.
+
+Gelegentlich zocke ich, überwiegend RPGs (Assassin's Creed, Cyberpunk 2077, The Witcher, Hitman, Watch Dogs, usw.) aber auch Online-Shooter (PUBG, Valorant).
 
 {{% /img_resp %}}

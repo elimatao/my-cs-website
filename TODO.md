@@ -19,7 +19,7 @@
 
 ## General
 - [ ] !fix missing https
-- [ ] Endgültige Lösung für *Bilder* finden (in-text)
+- [ ] Endgültige Lösung für *Bilder* finden (in-text) -> Abhängig von aspect ratio.
 - [ ] Update Bootstrap?
 - [x] !OK lösung für Bilder in Text
 - [x] Linking noch einmal überprüfen :(
