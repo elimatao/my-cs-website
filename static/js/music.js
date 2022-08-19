@@ -21,7 +21,7 @@ async function renderComposers() {
 
 		// If the composers can be fetched, add them to the select.
 		for (let i = 0; i < inData.length; i++) {
-			composerSelect.innerHTML += `<option value="${inData[i].composer}">${inData[i].composer}</option>`;
+			composerSelect.innerHTML += `<option value="${inData[i].id}">${inData[i].name} ${inData[i].surname}</option>`;
 		}
 	} catch(error){
 		console.log(`Error: ${error}`);
@@ -55,7 +55,7 @@ function fetchComposers(){
 
 function checkQuery(){
 	const params = new URLSearchParams(window.location.search);
-	const composer = params.get("composer");
+	const composer = params.get("id");
 
 	// Überprüft, ob der in der URL angegebene Komponist eine Option ist und ändert sie gegebenenfalls.
 	for (let i = 0; i<composerSelect.options.length; i++){
@@ -73,76 +73,65 @@ function composerHandler()
     const request = new XMLHttpRequest();
 	request.open('POST', `${hostDomain}/specificMusic`)
 	const outData = new FormData();
-	outData.append('composer', this.value);
+	outData.append('id', this.value);  // The change of the select triggered the event
 	outData.append('language', language);
 	request.send(outData);
 	
 	request.onload = function() {
 		const inData = JSON.parse(request.responseText);
-		var tipp1, tipp2;
 		let i = 0;
 		var main = document.getElementById('recordings');
 		main.textContent = "";
-		
-		if (inData[i].language === "es"){
-			tipp1 = "Si quieren ver otra versión recomendada, sigan ";
-			tipp2 = "este enlace";
-		}
-		else if (inData[i].language === "de"){
-			tipp1 = "Falls ihr eine andere empfohlene Version sehen wollt, folgt ";
-			tipp2 = "diesem Link";
-		}
-		else {
-			tipp1 = "If you want to see another recomended version, follow ";
-			tipp2 = "this link";
-		}
 			
-		for (i = 0; i < inData.length; i += 2)
+		
+		
+		for (i = 0; i < inData.length; i ++)
 		{
-			main.innerHTML += 
-			`
-			<div class="container-fluid sec2" style="text-align: left;">
-				<div class="row p-3">
-					<div class="col-md-6 sec3">
-						<iframe width="100%" height="300px" src="${inData[i].url}"
-							frameborder="0" allow="accelerometer; autoplay; 
-							encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-						</iframe>
-					</div>
-					<div class="col-md-6 px-4 py-3">
-						<h4>${inData[i].title}</h4><br>
-						<p>${inData[i].recDate}</p>
-						<p>${inData[i].description}</p>
-						<p>${tipp1}
-						<a href="${inData[i].proVersion}" target="_blank">${tipp2}</a>.
-						</p>
+			var description = inData[i].description;
+			if (description == null){
+				description = "";
+			} else{
+				description = `<p>${description}</p>`
+			}
+			
+			if (i % 2 == 0){
+				main.innerHTML += 
+				`
+				<div class="container-fluid sec2" style="text-align: left;">
+					<div class="row p-3">
+						<div class="col-md-6 sec3">
+							<iframe width="100%" height="300px" src="${inData[i].url}"
+								frameborder="0" allow="accelerometer; autoplay; 
+								encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+						</div>
+						<div class="col-md-6 px-4 py-3">
+							<h4>${inData[i].title}</h4><br>
+							<p>${inData[i].recdate}</p>
+							<p>${description}</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			`;
-			if (i + 1 < inData.length)
-			{
+				`;
+			} else{
 				main.innerHTML += 
 				`
 				<div class="container-fluid sec1" style="text-align: left;">
 					<div class="row p-3">
 						<div class="col-md-6 sec3 order-1 order-md-2">
-							<iframe width="100%" height="300px" src="${inData[i + 1].url}"
+							<iframe width="100%" height="300px" src="${inData[i].url}"
 								frameborder="0" allow="accelerometer; autoplay; 
 								encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
 						</div>
 						<div class="col-md-6 order-2 order-md-1 px-4 py-3">
-							<h4>${inData[i + 1].title}</h4><br>
-							<p>${inData[i + 1].recdate}</p>
-							<p>${inData[i + 1].description}</p>
-							<p>${tipp1}
-							<a href="${inData[i + 1].proversion}" target="_blank">${tipp2}</a>.
-							</p>
+							<h4>${inData[i].title}</h4><br>
+							<p>${inData[i].recdate}</p>
+							<p>${description}</p>
 						</div>
 					</div>
 				</div>
-				`;
+				`;				
 			}
 		}
 		modContent(); //passt die neuen Inhalte an Fenstergröße an
