@@ -169,8 +169,10 @@ function scoreSave(score, player, game, mode="normal"){
 		if (language === "es") scoreTable.innerHTML += `<tr><th>Posición</th><th>Nombre</th><th>Resultado</th></tr>`;
 		else if (language === "de") scoreTable.innerHTML += `<tr><th>Position</th><th>Name</th><th>Ergebnis</th></tr>`;
 		else scoreTable.innerHTML += `<tr><th>Position</th><th>Name</th><th>Result</th></tr>`;
+		
+		scoreTable.appendChild(document.createElement("tbody"));
 		for (let i = 0; i < inData.length; i++){
-			scoreTable.innerHTML += 
+			scoreTable.lastElementChild.innerHTML += 
 			`
 				<tr>
 					<td>${i + 1}</td>

@@ -30,11 +30,13 @@
 - [x] Icon für Navigation verändern
 
 ## Visual
-- [ ] ! music: add a "please wait..." message while the api is starting
+- [x] ! music: add a "please wait..." message while the api is starting
 - [x] ! music: remove "undefined" for incomplete data
 - [ ] ! cs/single.html: improve the imgHeader (avoid repetitions of images)
 - [ ] Make the language selector prettier
 - [ ] Enhance edge case of Card with no image
+
+- [x] Music view selector
 - [ ] Implement a page-wide view selector (with the ability to switch between cards, rows or something else)
 ## Multilingual
 - [ ] Find a way to automate the translation_key extraction (like flask-babel)

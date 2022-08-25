@@ -221,13 +221,12 @@ main img {
   cursor: pointer; }
 
 /* Table */
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse; }
+table {
+  box-shadow: 4px 10px 16px #888888;
+  min-width: 50%; }
 
 th, td {
-  padding: 15px;
-  text-align: left; }
+  padding: 15px; }
 
 tr:nth-child(even) {
   background-color: #eee; }
@@ -277,3 +276,35 @@ th {
 a.card, a.card:hover {
   color: black;
   text-decoration: none; }
+
+/* NEW in v2.2: New display types for lists*/
+.row-big {
+  background-color: #ddd;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 4px 10px 16px #888888; }
+
+.row-big iframe {
+  height: 256px; }
+
+@media (min-width: 1500px) {
+  .row-big iframe {
+    height: 400px; } }
+
+/* Button to switch between views */
+#viewSelect {
+  border: 1px solid gray;
+  border-radius: 12px;
+  height: fit-content;
+  width: fit-content; }
+
+#viewSelect svg {
+  display: none; }
+
+#viewSelect .active {
+  display: inline-block;
+  fill: gray; }
+
+#viewSelect .active:hover {
+  fill: #ea433b;
+  cursor: pointer; }

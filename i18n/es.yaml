@@ -26,6 +26,7 @@ essays: Artículos
 music_welcome: Bienvenidos a la sección de Música!
 music_welcome_2: Aquí pueden acceder a la colección creciente de mis grabaciones.
 select_composer: Compositor seleccionado
+load_message: Por favor, espera...
 
 ## /games/leds/single.html
 nickname: Nombre ficticio

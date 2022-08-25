@@ -27,6 +27,7 @@ essays: Artikel
 music_welcome: Willkommen in der Musikabteilung!
 music_welcome_2: Hier habt ihr Zugang zur wachsenden Sammlung meiner Aufnahmen.
 select_composer: Ausgewählter Komponist
+load_message: Bitte warten...
 
 ## /games/leds/single.html
 nickname: Pseudonym
