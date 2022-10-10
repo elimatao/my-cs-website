@@ -16,7 +16,7 @@ En 2008 empecé a tener clases de piano en el Conservatorio Arenas-Albéniz con 
 
 Durante la cuarentena de 2020 descubrí la informática a través del curso online muy recomendable [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Esta página web originalmente fue su projecto final, pero se desarrolló más allá, pues de vez en cuando la actualizo o mejoro algunas partes. A lo largo del curso 20/21 participé en el concurso federal de informática y conseguí llegar a la final, donde me cortaron en trocitos.
 
-La informática me fascina por sus incontables maneras de ser aplicada. Además, la actividad de desarrollar software puede ser muy satisfactoria. Todo ello me llevó a comenzar mis estudios de informática en otoño de 2022.
+La informática me fascina por sus incontables maneras de ser aplicada. Además, la actividad de desarrollar software puede ser muy satisfactoria. Todo ello me llevó a comenzar en otoño de 2022 mis estudios de ingeniería de sistemas digitales en el Instituto Hasso Plattner (Potsdam).
 
 A parte de esto, en mi tiempo libre hago deporte, paso tiempo con mi perro Baloo y mis gatos Max y Moritz o leo. Últimamente disfruté particularmente la lectura de libros de fantasía escritos por Colfer, Funke, Tolkien y Zafón, pero también clásicos de Dumas y London.
 

@@ -17,7 +17,7 @@ Meine Klavierausbildung schloss ich im Juni 2022 mit einem Konzertabend ab. Die 
 
 2020 entdeckte ich während der Pandemie mit dem empfehlenswerten Online-Kurs [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) die Informatik für mich. Als Abschlussprojekt erstellte ich diese Webseite. Sie ist aber über den Kurs hinausgewachsen und wird von mir ab und zu erweitert und aktualisiert. Im Schuljahr 20/21 nahm ich am Bundeswettbewerb Informatik teil und schaffte es in die Endrunde, wo ich aber kleingehackt wurde.
 
-Ich finde die Informatik wegen ihrer zahlreichen Anwendungsmöglichkeiten und wachsenden Bedeutung faszinierend. Zudem ist die Tätigkeit der Softwareentwicklung recht erfüllend. Dies hat mich dazu gebracht, im Herbst 2022 ein Studium in diesem Bereich zu beginnen.
+Ich finde die Informatik wegen ihrer zahlreichen Anwendungsmöglichkeiten und wachsenden Bedeutung faszinierend. Zudem ist die Tätigkeit der Softwareentwicklung recht erfüllend. Dies hat mich dazu gebracht, im Herbst 2022 ein Studium des IT-Systems Engineering am Hasso-Plattner-Institut in Potsdam zu beginnen.
 
 Ansonsten treibe ich in meiner Freizeit Sport, verbringe Zeit mit meinem Hund Baloo und den Katzen Max und Moritz oder lese. Besonders gefallen haben mir in letzter Zeit Fantasy-Bücher von Colfer, Funke, Tolkien und Zafón, aber auch Klassiker von Dumas oder London.
 

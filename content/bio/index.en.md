@@ -16,7 +16,7 @@ Starting from 2008 I received piano lessons in the Arenas-Albéniz conservatory.
 
 2020 I discovered informatics through the recommendable online-course [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). As final project I built this website. It eventually became more than that and is being enhanced and updated from time to time. In the 20/21 course I participated in the federal informatics competition and managed to reach the final round, where I was cut into pieces.
 
-I find informatics to be fascinating because of its countless possibilities of being applied. Aditionally, the activity of building software is quite fulfilling. All this led me to start studying this subject in fall 2022.
+I find informatics to be fascinating because of its countless possibilities of being applied. Aditionally, the activity of building software is quite fulfilling. All this led me to start studying IT-Systems Engineering at the Hasso-Plattner-Institute in Potsdam this year.
 
 Apart from all this I spend my free time doing sports, playing with my dog Balloo and my Cats Max and Moritz or reading. Lastly I've specifically enjoyed reading fantasy novels written by Colfer, Funke, Tolkien and Zafón, but also classics from Dumas and London.
 
