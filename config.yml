@@ -44,12 +44,15 @@ languages:
       - name: sobre este sitio
         url: /cs/sobre_este_sitio/
         weight: 1
+      - name: Registro de cambios
+        url: /en/changelog/
+        weight: 2
       - name: Política de privacidad
         url: /privacidad/
-        weight: 2
+        weight: 3
       - name: Aviso legal
         url: /legal/
-        weight: 3
+        weight: 4
 
 
       games:
@@ -85,14 +88,14 @@ languages:
       - name: About this site
         url: /en/cs/about_this_site/
         weight: 1
+      - name: Changelog
+        url: /en/changelog/
+        weight: 2
       - name: Privacy policy
         url: /privacidad/
-        weight: 2
+        weight: 3
       - name: Legal
         url: /legal/
-        weight: 3
-      - name: Log in
-        url: /en/log_in
         weight: 4
 
       games:
@@ -127,14 +130,14 @@ languages:
       - name: Über diese Seite
         url: /de/cs/ueber_diese_seite/
         weight: 1
+      - name: Änderungsprotokoll
+        url: /en/changelog/
+        weight: 2
       - name: Datenschutz
         url: /privacidad/
-        weight: 2
+        weight: 3
       - name: Rechtlicher Hinweis
         url: /legal/
-        weight: 3
-      - name: Einloggen
-        url: /de/einloggen
         weight: 4
 
       games:
