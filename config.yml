@@ -18,6 +18,8 @@ markup:
     renderer:
       unsafe: true
 
+taxonomies:
+  composer: composers
 
 languages:
   es:
@@ -28,16 +30,16 @@ languages:
     menu:
       main:
       - name: Sobre mí
-        url: /sobre_mi/
+        pageRef: /bio
         weight: 1
       - name: Música
-        url: /musica/
+        pageRef: /composers
         weight: 2
       - name: Juegos
-        url: /games/leds/
+        pageRef: /games/leds
         weight: 3
       - name: Informática
-        url: /cs/
+        pageRef: /cs
         weight: 4
       
       footer:
@@ -72,16 +74,16 @@ languages:
     menu:
       main:
       - name: About me
-        url: /about_me/
+        pageRef: /bio
         weight: 1
       - name: Music
-        url: /music/
+        pageRef: /composers
         weight: 2
       - name: Games
-        url: /games/leds/
+        pageRef: /games/leds
         weight: 3
       - name: Informatics
-        url: /cs/
+        pageRef: /cs
         weight: 4
       
       footer:
@@ -114,16 +116,16 @@ languages:
     menu:
       main:
       - name: Über mich
-        url: /ueber_mich/
+        pageRef: /bio
         weight: 1
       - name: Musik
-        url: /musik/
+        pageRef: /composers
         weight: 2
       - name: Spiele
-        url: /games/leds/
+        pageRef: /games/leds
         weight: 3
       - name: Informatik
-        url: /cs/
+        pageRef: /cs
         weight: 4
         
       footer:

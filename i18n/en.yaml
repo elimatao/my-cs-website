@@ -22,12 +22,6 @@ news: News
 ## /cs/list.html
 essays: Essays
 
-## /music/single.html
-music_welcome: Welcome to the music section!
-music_welcome_2: Here is the growing collection of my recordings. 
-select_composer: Selected composer
-load_message: Please wait...
-
 ## /games/leds/single.html
 nickname: Nickname
 round_count: Number of rounds

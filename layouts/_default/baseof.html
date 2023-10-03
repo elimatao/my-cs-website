@@ -79,12 +79,13 @@
 			</svg>
 		</a>
 
-		<!-- evtl. Range-Implementierung -->
+		<!-- ELIA Doumerc -->
 		<a href="{{ .Site.BaseURL | relLangURL }}" class="navigation-brand left">
 			<span class="blue">E</span><span class="red">L</span><span class="yellow">I</span><span class="green">A</span> <span class="red">Doumerc</span>
 		</a>
+		<!-- Menu list -->
 		{{ range .Site.Menus.main }}
-			<a href="{{ .URL | relLangURL }}" class="left">{{ .Name }}</a>		
+			<a href="{{ .URL }}" class="left">{{ .Name }}</a>		
 		{{ end }}
 		
 		<a href="javascript:void(0)" class="right contact">{{ T "contact" }}</a>
