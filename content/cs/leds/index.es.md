@@ -1,12 +1,12 @@
 ---
-title: Leds
+title: LEDs
 slug: leds
-type: games/leds
+layout: leds
 date: 2022-06-18
 lastmod: 2022-06-18
 description: Juego de conversión entre sistemas numéricos.
 featured_image: /images/LEDs.png
-show_featured_image: False
+show_featured_image: True
 draft: False
 has_formulas: True
 ---
