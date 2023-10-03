@@ -118,7 +118,7 @@ async function LEDGame()
 	
 	var name = document.querySelector('#name').value;
 	//Speichere Resultat
-	scoreSave(totalResult, name, "LEDs", mode);
+	// scoreSave(totalResult, name, "LEDs", mode);
 	return false;
 }
 
