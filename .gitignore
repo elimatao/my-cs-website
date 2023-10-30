@@ -1,5 +1,6 @@
 public/
 GitHub-Mark*
 
+resources/_gen/
 assets/sass/bootstrap/
 assets/sass/bootstrap-overrides.css

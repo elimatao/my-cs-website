@@ -271,7 +271,7 @@ color: white;
 @media screen and (max-width: 990px){
 	.card-columns{columns: 2;}
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 768px){
 	.card-columns{columns: 1;}
 }
 
@@ -305,21 +305,30 @@ a.card, a.card:hover{
 
 
 /* NEW in v2.2: New display types for lists*/
-.row-big{
-  background-color: #ddd;
-  border-radius: 8px;
-  text-align: left;
-  box-shadow: 4px 10px 16px #888888;
-}
-
 .row-big iframe{
   height: 256px;
 }
+
+/*
 @media (min-width: 1500px){
   .row-big iframe{
-    height: 400px;
+    height: 256px;
   }
 }
+@media (max-width: 768px){
+  .row-big iframe{
+    height: 256px;
+  }
+}
+@media (max-width: 576px){
+  .row-big iframe{
+    height: 256px;
+  }
+}
+*/
+
+
+
 
 
 /* Button to switch between views */

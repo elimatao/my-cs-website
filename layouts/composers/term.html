@@ -35,9 +35,17 @@
         </div>
         
         <!-- Hier kommen die Aufnahmen rein.-->
-        <div id="recordings">
+        <div id="recordings" class="container">
+            <div id="view-row-big" class="card-columns row-big">
+                {{ range .Data.Pages }}
+                    <a class="card" href="{{ .Params.medialink }}">
+                        {{ partial "card_children" . }}
+                    </a>
+                {{ end }}
+            </div>
+
             <table class="mx-auto my-3 d-none" id="view-row-small">
-                <tbody>
+                <tbody style="border-radius: 8px;">
                     {{ range .Data.Pages }}
                     <tr class="row-small">
                         <td><b>{{ .Title }}</b></td>
@@ -53,24 +61,6 @@
                     {{ end }}
                 </tbody>
             </table>
-
-            <div id="view-row-big" class="d-none">
-                {{ range .Data.Pages }}
-                <div class="row m-4 row-big">
-                    <div class="col-md-6 sec3" style="border-radius: 8px;">
-                        <iframe class="media" width="100%" src="{{ .Params.medialink }}}"
-                            frameborder="0" allow="accelerometer; autoplay; 
-                            encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div class="col-md-6 px-4 py-3">
-                        <h4 class="title">{{ .Title }}</h4><br>
-                        <p class="date">{{ .Date | time.Format "2006-01-2" }}</p>
-                        <p class="body"></p>
-                    </div>
-                </div>
-                {{ end }}
-            </div>
         </div>
 
 
