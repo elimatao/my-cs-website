@@ -13,9 +13,6 @@
 {{ define "main" }}
     <main class="sec1">
         <div class="container p-5">
-            <h3>This is a collection of recordings I made in the last years</h3>
-            <hr>
-
             Selected composer
             <select name="composerSelect" id="composerSelect" onchange="document.location = this.options[this.selectedIndex].value">
                 {{ range .Site.Taxonomies.composers.Alphabetical }}

@@ -112,7 +112,7 @@ languages:
       - name: Über mich
         pageRef: /bio
         weight: 1
-      - name: Musik
+      - name: Musikaufnahmen
         pageRef: /composers
         weight: 2
       - name: Informatik

@@ -27,7 +27,17 @@
     </div>
     
     <div class="card-columns container p-4">
-        {{ range where site.RegularPages "Type" "news" }}
+        {{ $news := site.RegularPages }}
+
+        {{ range .Site.Home.Translations }}
+            {{ $news = ($news | lang.Merge .Site.RegularPages) }}
+        {{ end }}
+
+        {{ $news := where $news "Type" "like" `recordings|news` }}
+        {{ $news := sort $news "Date" "desc" }}
+        {{ $news := first 2 $news }}
+
+        {{ range $news}}
             <div class="card">
                 {{ partial "card_children" . }}
             </div> 
