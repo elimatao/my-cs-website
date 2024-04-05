@@ -2,7 +2,7 @@
 title: About me
 slug: about_me
 date: 2020-08-01
-lastmod: 2023-08-28
+lastmod: 2024-04-05
 description:
 draft: False
 ---
@@ -14,7 +14,9 @@ Starting in 2008, I received piano lessons at the Conservatorio Arenas Albéniz.
 
 In 2020, during the pandemic, I discovered computer science for myself through the online course [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x), which I highly recommended. As a final project, I created this website. I occasionally update its content and some technical aspects. In the 20/21 school year, I participated in the Federal Computer Science Competition and made it to the final round. The endless amount of possible applications of computer science and my joy in problem-solving led me to start studying IT-Systems Engineering at the <abbr title="Hasso-Plattner-Institute">HPI</abbr> in Potsdam in the fall of 2022.
 
-The study also takes up the majority of my time. Alongside, I do my best to maintain my piano playing, engage in activities with my friends, go to the gym and like to ride my gravelbike.
+Alongside, I also do strength training and ride my gravelbike a lot, occasionally embarking on bikepacking trips.
+
+Of course, I continue to play the piano - I am constantly expanding my repertoire. In 2023, I also became a freelancer. That means I am now available for concerts! No matter what piano you have standing around, just contact me.
 
 <p class="text-muted small">Translated with the help of ChatGPT - I've become lazy</p>
 

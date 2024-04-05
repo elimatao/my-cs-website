@@ -2,7 +2,7 @@
 title: Sobre mí
 slug: sobre_mi
 date: 2020-08-01
-lastmod: 2023-08-28
+lastmod: 2024-04-05
 description:
 draft: False
 ---
@@ -14,7 +14,9 @@ En 2008 empecé a tener clases de piano en el Conservatorio Arenas-Albéniz con 
 
 En 2020, durante la pandemia, descubrí la informática a través del curso online muy recomendable [CS50x](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Como proyecto final, creé esta página web. De vez en cuando actualizo su contenido y aspectos técnicos. En el año escolar 20/21, participé en el BwInf (Competición Federal de Informática) y llegué a la ronda final. Las incontables maneras de aplicar la informática y mi alegría por resolver problemas me llevaron a estudiar IT-Systems Engineering en el <abbr title="Hasso-Plattner-Institut">HPI</abbr> en Potsdam en el otoño de 2022.
 
-Los estudios también ocupan la mayor parte de mi tiempo. Además, hago lo posible para mantenerme en el piano, paso tiempo con mis amigos, voy al gimnasio y me entreno en el gravelbike.
+Además de los estudios, hago bastante deporte, sobre todo calistenia y ciclismo. De vez en cuando también hago bikepacking.
+
+Por supuesto, continúo tocando el piano; estoy constantemente ampliando mi repertorio. Además, en 2023 me hice autónomo. ¡Esto significa que ahora estoy disponible para conciertos! Da igual el piano que tengas, simplemente contáctame.
 
 <p class="text-muted small">Traducido con la ayuda de ChatGPT</p>
 
