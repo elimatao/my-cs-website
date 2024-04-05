@@ -6,7 +6,7 @@ lastmod: 2023-08-28
 description:
 draft: False
 ---
-{{% img_resp src="elia_2022.JPG" alt="Elia" %}}
+{{% img_resp src="elia_2024_squared.png" alt="Elia" %}}
 
 Ich wurde 2004 in Las Palmas de Gran Canaria geboren und wuchs in einer deutsch-französischen Familie auf. Im Alter von drei Jahren trat ich in die Deutsche Schule Las Palmas ein und blieb dort bis zu meinem Abitur in 2022.
 
