@@ -6,7 +6,7 @@ lastmod: 2024-04-05
 description:
 draft: False
 ---
-{{% img_resp src="elia_2024_squared.png" alt="Elia" %}}
+{{% img_resp src="elia_2024_squared.jpg" alt="Elia" %}}
 
 I was born 2004 in Las Palmas de Gran Canaria, and grew up in a German-French family. At the age of three, I entered the Deutsche Schule Las Palmas and remained there until my high school graduation in 2022.
 

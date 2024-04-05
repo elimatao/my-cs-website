@@ -6,7 +6,7 @@ lastmod: 2024-04-05
 description:
 draft: False
 ---
-{{% img_resp src="elia_2024_squared.png" alt="Elia" %}}
+{{% img_resp src="elia_2024_squared.jpg" alt="Elia" %}}
 
 Nací en 2004 en Las Palmas de Gran Canaria y crecí en una familia franco-alemana. A los tres años, entré en el Colegio Oficial Alemán de Las Palmas y permanecí allí hasta mi bachillerato en 2022.
 
